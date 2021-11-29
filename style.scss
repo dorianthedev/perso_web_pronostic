@@ -179,7 +179,6 @@ p {
         padding-top: 20px;
         display: flex;
         flex-direction: row;
-        margin: auto;
         column-gap: 10px;
         justify-content: center;
     }
@@ -195,5 +194,8 @@ p {
         font-size: 13px;
         font-weight: 500;
         margin-left: 3px;
+    }
+    .fas, .far {
+        color: rgb(30, 134, 182);
     }
 }

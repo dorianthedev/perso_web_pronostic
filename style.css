@@ -189,7 +189,6 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: auto;
   -webkit-column-gap: 10px;
           column-gap: 10px;
   -webkit-box-pack: center;
@@ -218,5 +217,9 @@ p {
   font-size: 13px;
   font-weight: 500;
   margin-left: 3px;
+}
+
+.avantages .fas, .avantages .far {
+  color: #1e86b6;
 }
 /*# sourceMappingURL=style.css.map */
