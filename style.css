@@ -176,6 +176,10 @@ p {
   }
 }
 
+.avantages h2 {
+  text-align: center;
+}
+
 .avantages__block-all {
   padding-top: 20px;
   display: -webkit-box;
@@ -208,5 +212,11 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.avantages p {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 3px;
 }
 /*# sourceMappingURL=style.css.map */

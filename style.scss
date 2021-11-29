@@ -171,6 +171,9 @@ p {
 
 
 .avantages {
+    h2 {
+        text-align: center;
+    }
     
     &__block-all {
         padding-top: 20px;
@@ -187,5 +190,10 @@ p {
     }
     &__block-card {
         display: flex;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 500;
+        margin-left: 3px;
     }
 }
