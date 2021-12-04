@@ -207,6 +207,12 @@ p, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+.block__accroche-text-under {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
 /****** Début section avantages ******/
 .avantages {
   display: none;
