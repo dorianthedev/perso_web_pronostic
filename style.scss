@@ -12,6 +12,7 @@
 
 h1, h2{
     font-family: 'Righteous', cursive;
+    
 }
 
 p, h6 {
@@ -188,15 +189,25 @@ p, h6 {
     }
 }
 
+/****** Début block accroche ******/
 
-
-
+.block__accroche {
+    margin-top: 20px;
+    &-text {
+        text-align: center;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
+}
 
 
 /****** Début section avantages ******/
 
 
 .avantages {
+    display: none;
+    margin: 30px;
     h2 {
         text-align: center;
     }
