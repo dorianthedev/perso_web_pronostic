@@ -13,8 +13,12 @@ h1, h2 {
   font-family: 'Righteous', cursive;
 }
 
-p, h6 {
+p, h6, li {
   font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
 }
 
 /****** Début section informations place ******/
@@ -34,6 +38,47 @@ p, h6 {
 }
 
 /****** Début section header ******/
+.header__block-all {
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__block-logo img {
+  height: auto;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header__block-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.header__block-list-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.header li {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /****** Début section main vidéo ******/
 .section-main-video {
   width: 100%;
@@ -125,7 +170,7 @@ p, h6 {
 }
 
 .block-text h1 {
-  font-size: 40px;
+  font-size: 50px;
   text-transform: uppercase;
 }
 
@@ -137,9 +182,9 @@ p, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 5px 5px 15px 5px rgba(42, 60, 143, 0.71);
-          box-shadow: 5px 5px 15px 5px rgba(42, 60, 143, 0.71);
-  background-color: #1e86b6;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.71);
+          box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.71);
+  background-color: black;
   border-radius: 25px;
   -webkit-box-align: center;
       -ms-flex-align: center;

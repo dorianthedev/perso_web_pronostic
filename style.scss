@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 h1, h2{
@@ -15,9 +16,12 @@ h1, h2{
     
 }
 
-p, h6 {
+p, h6, li {
     font-family: 'Roboto', sans-serif;
     
+}
+li {
+    list-style-type: none;
 }
 
 /****** Début section informations place ******/
@@ -40,6 +44,37 @@ p, h6 {
 
 /****** Début section header ******/
 
+
+
+
+
+.header {
+    &__block-all {
+        padding: 0 30px;
+        display: flex;
+        
+    }
+    &__block-logo img {
+        height: auto;
+        width: 200px;
+        object-fit: cover;
+    
+    }
+    &__block-nav {
+        display: flex;
+        margin-left: auto;
+    }
+    &__block-list-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 20px;
+    }
+    li {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
 
 
 
@@ -119,7 +154,7 @@ p, h6 {
 }
 
 .block-text h1 {
-    font-size: 40px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
@@ -129,8 +164,8 @@ p, h6 {
     z-index: 3;
     background-color: black;
     display: flex;
-    box-shadow: 5px 5px 15px 5px rgba(42,60,143,0.71);
-    background-color: rgb(30, 134, 182);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.71);
+    background-color: rgb(0, 0, 0);
     border-radius: 25px;
     align-items: center;
     justify-content: center;
@@ -245,3 +280,8 @@ p, h6 {
         color: rgb(30, 134, 182);
     }
 }
+
+
+
+
+
