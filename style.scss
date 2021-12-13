@@ -45,14 +45,12 @@ li {
 /****** Début section header ******/
 
 
-
-
-
 .header {
     &__block-all {
         padding: 0 30px;
         display: flex;
-        
+        align-items: center;
+        justify-content: space-between;
     }
     &__block-logo img {
         height: auto;
@@ -62,7 +60,8 @@ li {
     }
     &__block-nav {
         display: flex;
-        margin-left: auto;
+       
+        
     }
     &__block-list-nav {
         display: flex;
@@ -75,6 +74,10 @@ li {
         font-weight: bold;
     }
 }
+            /****** Début section menu burger header ******/
+
+   
+
 
 
 
