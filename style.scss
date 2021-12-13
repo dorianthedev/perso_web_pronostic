@@ -24,6 +24,10 @@ li {
     list-style-type: none;
 }
 
+.color__font-awesome-check {
+    color:rgb(255,163,26);
+}
+
 /****** Début section informations place ******/
 
 .information__place {
@@ -264,15 +268,24 @@ li {
 .block__accroche {
     margin-top: 20px;
     &-text {
+        padding: 0 5px;
         text-align: center;
         font-weight: 500;
         text-transform: uppercase;
         font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
-    &-text-under {
+    &-block-service {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    &-service {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
-        text-align: center;
+        text-align: left;
+        padding: 0 5px;
     }
 }
 
@@ -312,6 +325,15 @@ li {
     }
 }
 
+
+
+
+.footer {
+    &__block-all {
+        height: 50px;
+        background-color:black;
+    }
+}
 
 
 

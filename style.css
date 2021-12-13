@@ -21,6 +21,10 @@ li {
   list-style-type: none;
 }
 
+.color__font-awesome-check {
+  color: #ffa31a;
+}
+
 /****** Début section informations place ******/
 .information__place {
   background-color: black;
@@ -305,16 +309,31 @@ li {
 }
 
 .block__accroche-text {
+  padding: 0 5px;
   text-align: center;
   font-weight: 500;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-.block__accroche-text-under {
+.block__accroche-block-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5px;
+}
+
+.block__accroche-service {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
+  padding: 0 5px;
 }
 
 /****** Début section avantages ******/
@@ -368,5 +387,10 @@ li {
 
 .avantages .fas, .avantages .far {
   color: #1e86b6;
+}
+
+.footer__block-all {
+  height: 50px;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
