@@ -177,9 +177,6 @@ li {
     padding-right: 30px;
 }
 
-.tablet-pc {
-    display: none;
-}
 
 @media screen and (min-width: 576px) {
 
@@ -202,16 +199,14 @@ li {
         
     }
 
-    .tablet-pc {
+    .video-mobil {
         display: block;
         width: 100%;
         height: inherit;
         object-fit: cover;
     }
     
-    .video-mobil {
-        display: none;
-    }
+    
     
     .bg {
        
