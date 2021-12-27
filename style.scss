@@ -114,15 +114,34 @@ li {
     }
 
 }
-.fa-ban {
+.fa-times {
     visibility: hidden;
     color: rgb(51, 146, 51);
     font-size: 0px;
     @media screen and (max-width: 622px) {
         visibility: visible;
-        font-size: 20px;
+        font-size: 22px;
         cursor: pointer;
+        background-color: white;
+        border-radius: 25px;
+        
     }
+}
+.text-menu-fermer {
+    @media screen and (max-width: 622px) {
+        text-transform: uppercase;
+        font-size: 22px;
+        padding-left: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+}
+
+.burger-close {
+    @media screen and (max-width: 622px) {
+        padding: 10px;
+    }
+
 }
 
             /****** Début section menu burger header ******/
