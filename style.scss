@@ -106,7 +106,7 @@ li {
 .burger-menu {
     visibility: hidden;
     font-size: 0px;
-    color: green;
+    color: rgb(51, 146, 51);
     @media screen and (max-width: 622px) {
         visibility: visible;
         font-size: 18px;
@@ -116,7 +116,7 @@ li {
 }
 .fa-ban {
     visibility: hidden;
-    color: green;
+    color: rgb(51, 146, 51);
     font-size: 0px;
     @media screen and (max-width: 622px) {
         visibility: visible;
