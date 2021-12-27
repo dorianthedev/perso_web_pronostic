@@ -124,25 +124,19 @@ li {
         cursor: pointer;
         background-color: white;
         border-radius: 25px;
-        
+        padding: 10px 15px;
     }
 }
 .text-menu-fermer {
     @media screen and (max-width: 622px) {
         text-transform: uppercase;
         font-size: 22px;
-        padding-left: 5px;
+        padding-left: 10px;
         font-family: 'Roboto', sans-serif;
     }
 
 }
 
-.burger-close {
-    @media screen and (max-width: 622px) {
-        padding: 10px;
-    }
-
-}
 
             /****** Début section menu burger header ******/
 
