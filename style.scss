@@ -114,8 +114,8 @@ body {
     display:flex;
     flex-direction:column;
     width:0;
-    height:100vh;
-    position:fixed;
+    height:100vh;  
+    position:absolute;
     top:0;
     right:0;     
     background:var(--navbar-bg-color);     
@@ -125,7 +125,7 @@ body {
   }
   .show-nav .navbar__links { 
     
-    width:100%;    
+    width:100vw;    
     transform: translateX(0);
   } 
   .navbar__link {    

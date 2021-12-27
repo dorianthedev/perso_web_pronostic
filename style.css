@@ -131,7 +131,7 @@ body {
             flex-direction: column;
     width: 0;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     background: var(--navbar-bg-color);
@@ -142,7 +142,7 @@ body {
     z-index: 10;
   }
   .show-nav .navbar__links {
-    width: 100%;
+    width: 100vw;
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
