@@ -65,8 +65,10 @@ li {
     }
     &__block-nav {
         display: flex;
-       
-        
+        @media screen and (max-width: 622px) {
+            display: none;
+        }
+
     }
     &__block-list-nav {
         display: flex;
@@ -78,7 +80,54 @@ li {
         text-transform: uppercase;
         font-weight: bold;
     }
+
 }
+
+.ouvrir .header__block-nav {
+    display: flex;
+
+}
+.ouvrir .header__block-list-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    row-gap: 30px;
+    position:  fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+
+}
+.burger-menu {
+    visibility: hidden;
+    font-size: 0px;
+    color: green;
+    @media screen and (max-width: 622px) {
+        visibility: visible;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+}
+.fa-ban {
+    visibility: hidden;
+    color: green;
+    font-size: 0px;
+    @media screen and (max-width: 622px) {
+        visibility: visible;
+        font-size: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
+
             /****** Début section menu burger header ******/
 
    
