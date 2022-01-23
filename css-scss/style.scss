@@ -57,17 +57,18 @@ li {
     position: fixed;
     bottom: 20;
     right: 15px;
-    border-radius: 50%;
+    border-radius: 25px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
-    background: rgba(255,163,26,1);
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(354deg, rgba(0,0,0,1) 0%, rgba(255,163,26,1) 100%);
+    background: -webkit-linear-gradient(354deg, rgba(0,0,0,1) 0%, rgba(255,163,26,1) 100%);
+    background: linear-gradient(354deg, rgba(0,0,0,1) 0%, rgba(255,163,26,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffa31a",GradientType=1);
     align-items: center;
     justify-content: center;
     color: white;
-    width: 70px;
-    height: 70px;
-    row-gap: 2px;
+    column-gap: 5px;
 
     &__block-text {
         font-size: 17px;

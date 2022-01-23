@@ -47,16 +47,14 @@ li {
   position: fixed;
   bottom: 20;
   right: 15px;
-  border-radius: 50%;
+  border-radius: 25px;
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background: #ffa31a;
+  background: black;
+  background: linear-gradient(354deg, black 0%, #ffa31a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffa31a",GradientType=1);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,9 +62,8 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   color: white;
-  width: 70px;
-  height: 70px;
-  row-gap: 2px;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
 }
 
 .button-menu__block-text {
