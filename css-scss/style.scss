@@ -52,7 +52,31 @@ li {
 /****** Début section menu burger header ******/
 
    
+.button-menu {
+    z-index: 30;
+    position: fixed;
+    bottom: 20;
+    right: 15px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,163,26,1);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 70px;
+    height: 70px;
+    row-gap: 2px;
 
+    &__block-text {
+        font-size: 17px;
+    }
+    .fa-bars {
+        font-size: 24px;
+    }
+        
+}
 
 
 
@@ -158,7 +182,7 @@ li {
         }
         h1 {
             font-size: 50px;
-    text-transform: uppercase;
+            text-transform: uppercase;
         }
     }
 
