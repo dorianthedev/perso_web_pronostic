@@ -60,15 +60,12 @@ li {
     border-radius: 25px;
     padding: 10px;
     display: flex;
-    background: rgb(0,0,0);
-    background: -moz-linear-gradient(354deg, rgba(0,0,0,1) 0%, rgba(255,163,26,1) 100%);
-    background: -webkit-linear-gradient(354deg, rgba(0,0,0,1) 0%, rgba(255,163,26,1) 100%);
-    background: linear-gradient(354deg, rgba(0,0,0,1) 0%, rgba(255,163,26,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffa31a",GradientType=1);
+    background-color: black;
     align-items: center;
     justify-content: center;
     color: white;
     column-gap: 5px;
+    border: 2px solid white;
 
     &__block-text {
         font-size: 17px;
